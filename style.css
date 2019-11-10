@@ -9,11 +9,6 @@ body {
     top: 150px;
 }
 
-table {
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
 #header {
     border-bottom: 1px solid black;
     width: 550px;
@@ -68,3 +63,15 @@ a:link {
     color: #497DDD; 
     border-bottom: 1px solid;
   }
+
+  table {
+    width: 500px;
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+
+  td, th {
+    padding: 3px;
+    border: 1px solid black;
+    text-align: left;
+   }
