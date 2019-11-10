@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to right, #E6E6E6 10%, rgb(82, 74, 151));
+    font-family: Marker Felt, fantasy;
+}
+
+.about {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+table {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#header {
+    border-bottom: 1px solid black;
+    width: 550px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid rgb(143, 143, 143);
+    cursor: text;
+}
+
+.add {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #478cc8;
+    color: white;
+    padding: 4px;
+    border: none;
+}
+
+.add:hover {
+    background-color: #3a7bbf;
+}
+
+.add:active {
+    background-color: #3167b5;
+}
+
+.add:focus {
+    outline: none;
+}
+
+.criterion {
+    cursor: pointer;
+}
+
+a:link {
+    color: rgb(47, 89, 167); 
+    border-bottom: 1px dashed; 
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(157, 85, 239);
+  }
+  a:hover {
+    color: #154088; 
+    border-bottom: .07em solid;
+  }
+  a:active {
+    color: #497DDD; 
+    border-bottom: 1px solid;
+  }

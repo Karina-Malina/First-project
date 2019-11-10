@@ -6,43 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="./Favicon-dog-pawprint-orange.png" type="image/png">
     <title>Вакансия</title>
-
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
 <body>
         <h1>Вакансия: Junior Frontend Developer</h1>
-        <table>
-                <tr>
-                    <td>
-                        <img src="./cat.jpg" height=250px;>
-                    </td>
-                    <td>
-                        <div display="block-inline">
-                            <p>Имя: Кот</p>
-                            <a href="https://github.com/Karina-Malina/First-project" target="_blank">Ссылка на репозиторий в GitHub</a>
-                            <p>Опыт работы: нет</p>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+            <div id="header">
+                <img src="./cat.png" height=250px;>
+                    <div class="about">
+                        <p>Имя: Кот</p>
+                        <a href="https://github.com/Karina-Malina/First-project" target="_blank">Ссылка на репозиторий в GitHub</a>
+                        <p>Опыт работы: нет</p>
+                    </div>
+            </div>
         <span>
             Дата собеседования: <input type="date">
             <img src="./calendar.png" height="15px">
         </span>
         <div>
              <p>Уровень английского:</p>
-                   <label>
+                   <label class="criterion">
                        <input type="radio" name="eng"> 
                        Плохо
                     </label>
-                    <label>
+                    <label class="criterion">
                         <input type="radio" name="eng">
                         Средне
                     </label>
-                    <label>
+                    <label class="criterion">
                         <input type="radio" name="eng">
                         Хорошо
                     </label>
-                    <label>
+                    <label class="criterion">
                     <input type="radio" name="eng">
                     Превосходно
                 </label>
@@ -54,14 +49,16 @@
                   <li>HTML</li>
                   <li>CSS</li>
                  <li>JavaScript</li>
-               </ul>
-             <input type="text" placeholder="введите навык">
-             <input type="button" value="Добавить в список">
+                 <li>
+            <input type="text" placeholder="введите навык">
+            <input class="add" type="button" value="Добавить в список">
+                </li>
          </div>
             <br>
          <div>
             Коммуникабельность: 
             <select>
+                    <option value="" hidden>Выбрать</option>
                     <option>Что</option>
                     <option>здесь</option>
                     <option>должно</option>
@@ -73,32 +70,32 @@
             <br>
          <div>
             <span>Желаемая з/п:
-              <input type="number">
+              <input type="number" class="zp" placeholder="10000">
             </span>
          </div>
 
          <div>
             <p>Подходит по критериям:</p>
-                <label>
+                <label class="criterion">
                     <input type="checkbox">
                     Знание английского
                 </label>
-                <label>
+                <label class="criterion">
                     <input type="checkbox">
                      Опыт
                 </label>
-                <label>
+                <label class="criterion">
                     <input type="checkbox">
                     Навыки
                 </label>
-                <label>
+                <label class="criterion">
                     <input type="checkbox">
                     Сразу видно, что свой кот
                 </label>
             <p>Образование, курсы и т.п.</p>
         </div>
 
-        <table border="1px">
+        <table>
             <thead>
                 <tr>
                     <th>№</th>
