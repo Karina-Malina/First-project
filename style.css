@@ -14,12 +14,22 @@ header {
     width: 550px;
     margin-bottom: 30px;
     padding-bottom: 20px;
+    position: relative;
+}
+
+img {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+    transform: rotate(360deg);
 }
 
 input {
     border-radius: 3px;
     border: 1px solid rgb(143, 143, 143);
     cursor: text;
+    padding: 5px;
 }
 
 .add {
@@ -74,4 +84,8 @@ a:link {
     padding: 3px;
     border: 1px solid black;
     text-align: left;
+   }
+
+   tr:hover {
+    background-color: rgb(0, 255, 242);
    }
