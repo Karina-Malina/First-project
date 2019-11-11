@@ -9,7 +9,7 @@ body {
     top: 150px;
 }
 
-#header {
+header {
     border-bottom: 1px solid black;
     width: 550px;
     margin-bottom: 30px;
