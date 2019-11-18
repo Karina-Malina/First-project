@@ -58,9 +58,8 @@ body {
     }
 
 .page-content {
-    height: 526px;
-    width: 796px;
-    overflow: scroll;
+    overflow: auto;
+    height: 525px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -71,7 +70,19 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 10px;
+}
+
+.about-mes {
+    width: 150px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-mes p {
+    font-size: 12px;
 }
 
 .circle {
@@ -83,14 +94,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
-    margin-top: 20px;
-}
-
-.date-info {
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 30px;
 }
 
 .block-messages {
@@ -99,12 +102,12 @@ body {
 }
 
 .text-message {
-    height: auto;
-    width: 500px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
     background-color: #86b8c9;
     margin-right: 50px;
     margin-top: -15px;
+    display: flex;
+    flex-grow: 2;
 }
